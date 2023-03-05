@@ -6,7 +6,7 @@ import "../Styling/About.css";
 
 export const About = () => {
   return (
-    <div className="about-section-container">
+    <div className="about-section-container" id="about">
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
       </div>
@@ -14,9 +14,9 @@ export const About = () => {
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
+        <p className="primary-subheading">Om</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          Mat är en viktig del av en balancerad Diet
         </h1>
         <p className="primary-text">
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
@@ -27,9 +27,9 @@ export const About = () => {
           facilisis at fringilla quam.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          <button className="secondary-button">Lär dig mer</button>
           <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Watch Video
+            <BsFillPlayCircleFill /> Titta på Video
           </button>
         </div>
       </div>

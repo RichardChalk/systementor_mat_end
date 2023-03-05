@@ -56,6 +56,10 @@
   background-color: #e48f0f;
 }
 
+.not-richard {
+  max-width: 200px;
+}
+
 @media (max-width: 1000px) {
   .home-bannerImage-container {
     max-width: 600px;

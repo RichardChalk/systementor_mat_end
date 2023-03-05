@@ -52,7 +52,7 @@ export const Navbar = () => {
         <a href="">Hem</a>
         <a href="#about">Om</a>
         <a href="#testomonials">Referenser</a>
-        <a href="#kontakt">Kontakt</a>
+        <a href="#contact">Kontakt</a>
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>
