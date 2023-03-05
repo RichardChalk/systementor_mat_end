@@ -15,11 +15,11 @@ export const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Din favorit mat levererat hem till din dörr!
+            Din favoritmat levererad hem till din dörr!
           </h1>
           <p className="primary-text">
-            Richard och Stefan gör all preperationsarbete så du kan enkelt
-            förberada god, prisvärt & nyttig mat.
+            Richard och Stefan gör allt preperationsarbete så du enkelt kan
+            förberada god, prisvärd & nyttig mat.
           </p>
           <button className="secondary-button">
             Beställ nu <FiArrowRight />{" "}

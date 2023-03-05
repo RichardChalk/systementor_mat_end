@@ -16,7 +16,7 @@ export const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">Om</p>
         <h1 className="primary-heading">
-          Mat är en viktig del av en balancerad Diet
+          Mat är en viktig del av en balanserad diet
         </h1>
         <p className="primary-text">
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
