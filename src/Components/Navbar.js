@@ -16,6 +16,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import "../Styling/Navbar.css";
 
 export const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -49,9 +50,9 @@ export const Navbar = () => {
       </div>
       <div className="navbar-links-container">
         <a href="">Hem</a>
-        <a href="">Om</a>
-        <a href="">Referenser</a>
-        <a href="">Kontakt</a>
+        <a href="#about">Om</a>
+        <a href="#testomonials">Referenser</a>
+        <a href="#kontakt">Kontakt</a>
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>

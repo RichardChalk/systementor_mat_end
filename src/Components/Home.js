@@ -3,12 +3,13 @@ import { Navbar } from "./Navbar";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import { FiArrowRight } from "react-icons/fi";
+import "../Styling/Home.css";
 
 export const Home = () => {
   return (
     <div className="home-container">
       <Navbar />
-      <div className="home-banner-container">
+      <div className="home-banner-container" id="home">
         <div className="home-bannerImage-container">
           <img src={BannerBackground} alt="" />
         </div>
@@ -17,11 +18,11 @@ export const Home = () => {
             Din favorit mat levererat hem till din dörr!
           </h1>
           <p className="primary-text">
-            Utbildade kockar gör all preperationsarbetet så du kan enkelt
+            Richard och Stefan gör all preperationsarbete så du kan enkelt
             förberada god, prisvärt & nyttig mat.
           </p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Beställ nu <FiArrowRight />{" "}
           </button>
         </div>
         <div className="home-image-section">
