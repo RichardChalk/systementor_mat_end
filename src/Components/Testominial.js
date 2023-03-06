@@ -17,8 +17,11 @@ export const Testominial = () => {
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" className="not-richard" />
         <p>
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          <i>
+            "Jag har aldrig varit så nöjd med en leverantör. Otroligt kvalité
+            och service. Jag ger de mina varmaste rekommendationer.... och jag
+            arbetar absolut inte hos dem! Absolut INTE!"
+          </i>
         </p>
         <div className="testimonials-stars-container">
           <AiFillStar />
