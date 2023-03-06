@@ -46,6 +46,10 @@
   padding: 0.5rem 1rem;
 }
 
+.input-email {
+  display: inline;
+}
+
 @media (max-width: 1000px) {
   .primary-button {
     font-size: 1rem;
